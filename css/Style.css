@@ -1,0 +1,675 @@
+body
+{
+	margin: auto;
+	
+}
+
+#Header
+{
+	position: fixed;
+	right: 0;
+	left: 0;
+	margin: auto;
+	top: 0;
+	width: 1036px;
+	height: 110px;
+	background-color: white;
+	z-index: 100;
+	
+	
+	
+}
+.logo
+{
+	height: 100px;
+	
+}
+ul.OpeningTimes
+{
+	list-style-type: none;
+	background-color: white;
+	padding-top: 30px;
+	text-align: center;
+	font-family: "Eras ITC", "Eras Bold ITC", sans-serif;
+	font-size: 22px;
+	<!-- color: #07ebf8 -->;
+	color: #0021C2;
+	<!-- text-shadow: -1px 0 #283794, 0 1px #283794, 1px 0 #283794, 0 -1px #283794 -->;
+	margin: auto;
+	
+}
+li.OpeningTimes
+{
+	text-align: right;	
+}
+#Navbar
+{
+	
+	position: relative;
+	top: 70px;
+	width: 1036px;
+	z-index: 100;
+	margin: auto;
+
+	
+}
+nav
+{
+	position: fixed;
+	text-align: center;
+	background-color: #07ebf8;
+	margin: 0;
+	height: 26px;
+	width: 1036px;
+	top: 88px;
+
+}
+a.Navigation
+{
+	
+	position: static;
+	top: 88px;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-family: "Eras ITC", "Eras light ITC", sans-serif;
+	font-size: 22px;
+	background-color: #07ebf8;
+	text-decoration: none;
+	height:26px;
+}
+a.Navigation:hover
+{
+	background-color: white;
+}
+#Top
+{
+	position: relative;
+	top: 110px;
+	width: 1036px;
+	margin: auto;
+	
+	
+}
+
+.IntroVid
+{
+	display: inline;
+	height: 630px;
+	width: 1036px;
+	margin: auto;
+}
+.Intro
+{
+	height: 300px;
+	text-align: center;
+
+}
+.IntroText
+{
+	top:40%;
+}
+.Image
+{
+	width: 518px;
+	height: 366px;
+	position: relative;
+	display: block;
+}
+h1
+{
+	text-align: center;
+	font-size: 36px; 
+	color: #0021C2;
+	font-family: "Eras ITC", "Eras light ITC", sans-serif;
+	text-shadow: -1px 0 #283794, 0 1px #283794, 1px 0 #283794, 0 -1px #283794;
+}
+h2
+{
+	text-align: center;
+	font-size: 28px;
+	color: #0021C2;
+	font-family: "Eras ITC", "Eras light ITC", sans-serif;	
+	margin: 0;
+}
+h3
+{
+	text-align: center;
+	font-size: 22px;
+	color: #0021c2;
+	font-family: "Eras ITC", "Eras light ITC", sans-serif;		
+}
+p
+{
+	color: #0021C2;
+	font-family: "Eras ITC", "Eras light ITC", sans-serif;
+	font-size: 18px;
+	margin: 0;
+}
+#Tiles
+{
+	width: 1036px;
+	margin: auto;
+}
+#Tile1
+{
+	position: sticky;
+	float: left;
+	width: 50%;
+	height: 366px;
+	padding: 0;
+}
+.WallDragon
+{
+		width:100%;
+		height: auto;
+		display: none;
+}
+.Overlay
+{
+	position: absolute;
+	top: 0%;
+	left: 0;
+	right: 0;
+	background-color: #07ebf8;
+	overflow: hidden;
+	height: 0;
+	transition: .5s ease;
+}
+#Tile1:hover .Overlay
+{
+	height: 10%;
+}
+.OverlayText
+{
+	white-space: nowrap;
+	color: #0021C2;
+	font-size: 25px;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	font-family: "Eras ITC", "Eras light ITC", sans-serif;
+}
+#Tile2
+{
+	
+	padding: 0;
+	float: right;
+	width: 50%;
+	height: 366px;
+	background-color: white;
+	position: sticky;
+}
+#Tile2:hover .Overlay
+{
+	height: 10%;
+	
+}
+#Tile3
+{
+	
+	float: right;
+	width: 50%;
+	height: 366px;
+	background-color: white;
+	clear:right;
+	position: sticky;
+}
+#Tile3:hover .Overlay
+{
+	height: 10%;
+	
+}
+#Tile4
+{
+	float: left;
+	width: 50%;
+	height: 366px;
+	background-color: white;	
+	position: sticky;
+}
+#Tile4:hover .Overlay
+{
+	height: 10%;
+	
+}
+#Contact
+{
+	width: 1036px;
+	margin: auto;
+}
+.Map
+{
+	float: left;
+	width: 518px;
+}
+.ContactDetails
+{
+	text-align: center;
+	float: right;
+	width: 518px;
+	color: #0021C2;
+	font-family: "Eras ITC", "Eras light ITC", sans-serif;
+	font-size: 18px;
+}
+ul.ContactList
+{
+	list-style-type: none;
+	padding: 10px;
+}
+.ContactTitle
+{
+	padding-top: 80px;
+}
+{
+	height:2000;
+}
+#AboutSella
+{
+	top: 114px;
+	position: relative;
+	height: 500px;
+	width: 1036px;
+	margin: auto;
+}
+#AboutWarren
+{
+	position: relative;
+	width: 1036px;
+	margin: auto;
+	height: 320px;
+}
+#AboutUychich1
+{
+
+	position: relative;
+	width: 1036px;
+	height: 290px;
+	margin: auto;
+}
+ul.AboutTextRight
+{
+	list-style-type: none;
+	background-color: white;
+	padding-top: 5px;
+	text-align: center;
+	font-family: "Eras ITC", "Eras Bold ITC", sans-serif;
+	font-size: 22px;
+	color: #0021C2;
+	
+}
+#AboutUychich2
+{
+
+	position: relative;
+	width: 1036px;
+	height: 290px;
+	margin: auto;
+}
+.Spacer
+{
+	clear: left;
+	clear: right;
+	height: 20px;
+	background-color: #07ebf8;
+	position: relative;
+	width: 1036px;
+	margin: auto;
+	
+}
+
+.AboutImageLeft
+{
+	clear: right;
+	float: left;
+	width: 50%;
+	height:400px;
+	padding-bottom: 10px;
+	
+}
+.AboutImageRight
+{
+	clear: left;
+	float: right;
+	width: 50%;
+	left: 0;
+	right: 0;
+}
+.AboutTextRight
+{
+	position: absolute;
+	margin-left: 51%;
+	margin-right: 1%;
+	font-size: 22px;
+}
+.AboutTextLeft
+{
+	position: absolute;
+	margin-left: 1%;
+	margin-right: 51%;
+	font-size: 22px;
+	
+}
+.Subtitle
+{
+	display: block;
+	margin-bottom: 2%;
+	
+}
+.GalleryImg
+{
+	display: block;
+	margin: auto;
+}
+.MythicalButton
+{
+	display: inline-block;
+	position: sticky;
+	left: 518px;
+	height: 26px;
+	z-index: 50;
+	bottom: 0;
+	background-color: #87CEFA;
+	color: #0021C2;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	padding-bottom:6px;
+	
+}
+#GlassMythicalAnimals
+{
+	
+	width: 1036px;
+	margin: auto;
+	height: 480px;
+	
+}
+#MythicalOverlay
+{
+	position: relative;
+
+	width: 1036px;
+	height: 366px;
+	display: none;
+	background-color: #87CEFA;
+	z-index: 2;
+	text-align: center;
+	cursor: pointer;
+	
+	opacity: 0.8;
+
+	
+	
+}
+.MythicalText
+{
+	position: absolute;
+	height: 366px;
+	width: 800px;
+	left: 50%;
+	top: 60%;
+	opacity: 1;
+	text-align: center;
+
+	font-size: 22px;
+	transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+	
+
+	
+}
+.MythicalAnimalsSlider
+{
+	position: relative;
+	top: 114px;
+	height: 480px;
+	overflow: hidden;
+	width: 100%;
+	
+	
+}
+.unslider-nav
+{
+	display: none;
+}
+.MythicalAnimalsSlider li
+{
+	 
+	height: 366px;
+	overflow: hidden;
+	list-style-type: none;
+}
+.MythicalAnimalsSlider ul
+{
+	float: left;
+		
+}
+#AnimalsOverlay
+{
+	position: relative;
+
+	width: 1036px;
+	height: 366px;
+	display: none;
+	background-color: #87CEFA;
+	z-index: 2;
+	text-align: center;
+	cursor: pointer;
+	
+	opacity: 0.8;
+}
+.AnimalsButton
+{
+	display: inline;
+	position: relative;
+	left: 518px;
+	height: 20px;
+	z-index: 90;
+	top: 0;
+	background-color: #87CEFA;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	color: #0021C2;
+}
+#GlassAnimals
+{
+	width: 1036px;
+	margin: auto;
+	height: 366px;
+}
+.AnimalsSlider
+{
+	position: relative;
+	height: 366px;
+	overflow: hidden;
+	width: 100%;
+}
+#BronzeAnimals
+{
+	width: 1036px;
+	margin: auto;
+	height: 366px;
+}
+#BronzeOverlay
+{
+	position: relative;
+
+	width: 1036px;
+	height: 366px;
+	display: none;
+	background-color: #87CEFA;
+	z-index: 2;
+	text-align: center;
+	cursor: pointer;
+	
+	opacity: 0.8;
+}
+.BronzeAnimalsSlider
+{
+	position: relative;
+	height: 366px;
+	overflow: hidden;
+	width: 100%
+}
+#GlassFlowers
+{
+	width: 1036px;
+	margin: auto;
+	height: 366px;
+}
+#FlowersOverlay
+{
+	position: relative;
+
+	width: 1036px;
+	height: 366px;
+	display: none;
+	background-color: #87CEFA;
+	z-index: 2;
+	text-align: center;
+	cursor: pointer;
+	
+	opacity: 0.8;
+}
+.GlassFlowersSlider
+{
+	position: relative;
+	height: 366px;
+	overflow: hidden;
+	width: 100%;
+}
+#GiftBox
+{
+	position: relative;
+	top: 114px;
+	margin:auto;
+	width: 1036px;
+}
+#GiftItems
+{
+	
+	
+	position: sticky;
+	background-color: red;
+	width: 60%;
+	float: left;
+	margin: auto;
+	height:500px;
+	
+}
+#GiftBoxList
+{
+	position: sticky;
+	float: right;
+	width: 40%;
+	height: 500px;
+	background-color: green;
+	display: inline-block;
+}
+.DraggableItem
+{
+	height: 80px;
+	width: 120px;
+}
+.Copier
+{
+	border: 1px solid black;
+	width: 120px;
+	height: 80px;
+	margin: 10px;
+}
+#DemoVideo
+{
+	width:  1036px;
+	margin: auto;
+}
+#CustomList
+{
+	margin: auto;
+	width: 1036px;
+}
+ul.Shirts
+{
+	width: 300px;
+	list-style-type: none
+}
+.TShirts
+{
+	width: 300px;
+}
+.BackTShirt
+{
+	width: 600px;
+	margin: auto;
+	position:relative;
+}
+#CustomArea
+{
+	width: 1036px;
+	margin: auto;
+	position:relative;
+	display: inline;
+	margin-left:200px;
+}
+#form
+{
+	display: inline-block;
+	position: relative;
+	width: 436px;
+	float:right;
+	margin-right: 245px;
+	
+
+}
+#MerchTop
+{
+	height: 120px;
+}
+#forms
+{
+	float: center;
+	position: center;
+	padding: 20px;
+}
+.CustomName
+{
+	
+	float: left;
+}
+.CustomForm
+{
+	
+}
+.CustomButton
+{
+	top: 40px;
+	padding: 10px;
+	display: inline;
+	
+	
+	
+}
+p.CustomName
+{
+	padding: 20px;
+}
+#print
+{
+	font-size: 100px;
+}
+#CL
+{
+	top: 120px;
+	position: relative;
+	margin: auto;
+	width: 700px;
+	padding-top: 25px;
+	
+}
+	
